@@ -25,6 +25,9 @@ public class threeDoors {
             else
                 System.out.println("NO");
 
+
+                sc.close();
+
             // int keyGiven = sc.nextInt();
             // int d1 = sc.nextInt();
             // int d2 = sc.nextInt();

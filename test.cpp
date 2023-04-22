@@ -1,43 +1,25 @@
-#include<iostream>
+#include <bits/stdc++.h>
 using namespace std;
 
-void solve(){
-    int n;
-    cin>>n;
-    char bin[n];
-    for(int i = 0;i<n;i++){
-        cin>>bin[i];
-    }
-    
-    int zeros=0,ones=0;
-    
-    for (int i = 0; i < n; i++) {
-        if(bin[i]=='0')
-            zeros++;
-        else
-            ones++;
-    }
-    
-    cout<<ones<<" "<<zeros<<endl;
-    // int ans = 0;
-    
-    // if(zeros==0)
-    //     ans = 1;
-    // else if(ones==0)
-    //     ans = 0;
-    // else if(ones>zeros)
-    //     ans = zeros+1;
-    // else
-    //     ans = ones;
-    
-    // cout<<ans<<endl;    
+#define ll long long
 
+void solve(){
+    cout<<"Hello world"<<endl;
 }
 
-int main(){
-    // int t;
-    // cin>>t;
-    // while(t--) solve();
+signed main()
+{
 
-    solve();
+    // for multiple testcases
+    int t;
+    cin >> t;
+    for(int i = 0 ; i < t ; i++){
+        solve();
+    }
+
+    // for single test case
+    //solve();
+
+    return 0;
+
 }
