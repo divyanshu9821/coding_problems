@@ -1,19 +1,23 @@
+// codeforces, Bun Lover
 #include <bits/stdc++.h>
 using namespace std;
 
 #define ll long long
 
 void solve(){
-    cout<<"Hello world"<<endl;
+    ll n;
+    cin>>n;
+    cout<<(n*4) + ((n-1)*(n)/2) + ((n-2)*(n-1)/2) + 1<<endl;
+    
 }
 
 signed main()
 {
 
     // for multiple testcases
-    int t;
+    ll t;
     cin >> t;
-    for(int i = 0 ; i < t ; i++){
+    for(ll i = 0 ; i < t ; i++){
         solve();
     }
 
