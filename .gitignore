@@ -1,5 +1,6 @@
 .vscode
 *.exe
 *.txt
-test.*
+test.cpp
+test.java
 a.out
