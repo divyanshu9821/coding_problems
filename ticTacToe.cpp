@@ -2,6 +2,8 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+// this game is tictactoe
+
 // #define ll unsigned long long int;
 bool checkHorizontal(char result[3][3], char sym)
 {
